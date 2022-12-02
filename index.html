@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nestor Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="https://nestorgarcia.000webhostapp.com/projects/project6_Portfolio/assets/favicon.png" />
   </head>
   <body>
+    <nav id="navbar" class="nav">
     <header>
       <a href="" class="nav-img">
-        <img src="./assets/favicon.png" id="nav-title" />
+        <img src="https://nestorgarcia.000webhostapp.com/projects/project6_Portfolio/assets/favicon.png" id="nav-title" />
       </a>
-      <nav>
+      
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#project-tile">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="main">
+    <section class="main" id="welcome-section">
       <div class="main-class">
         <img
           src="https://avatars.githubusercontent.com/u/29736437?s=400&u=9ec90f08f105c3be4f800c9d5bec83c512cb1e43&v=4"
@@ -32,7 +33,7 @@
         <h1 class="name">Nestor Garcia</h1>
         <h1 class="name">I make Website Applications!</h1>
 
-        <div class="container-main"></div>
+        <div class="container-main" id="#welcome-section"></div>
         <p class="p-main">
           I have been doing applications for the last 4 years and I specialize
           in helping companies and entrepreneurs make their applications. I also
@@ -44,23 +45,25 @@
         </div>
       </div>
     </section>
-    <section class="projects-section">
+    <section class="projects-section" >
       <h4 class="name projects small">School Projects</h4>
-      <h2 class="name projects">Things I've made!</h2>
+      <h2 class="name projects project-tile">Things I've made!</h2>
     </section>
-    <section class="test">
+    <section class="test" id="projects">
       <h4 class="name projects" id="cubito">Cubito!</h4>
       <h5 class="description-item">C# | Unity</h5>
-      <p class="description-item">
+      <p class="description-item project-tile">
         It's a very simple program to play. The cube moves forward and the
         player must avoid obstacles in order to win the game. The game is made
         with 3 levels that the user can enjoy.
       </p>
-      <img
-        src="https://raw.githubusercontent.com/nestorjgc/Cubito-Unity-Game/main/Pictures/gif123.gif"
-        alt="Cubito Gif"
-        class="cubito-gif"
-      />
+         <a href="https://github.com/nestorjgc" class="nav-img" id="profile-link" target="_blank">
+        <img
+          src="https://raw.githubusercontent.com/nestorjgc/Cubito-Unity-Game/main/Pictures/gif123.gif"
+          alt="Cubito Gif"
+          class="cubito-gif"
+        />
+      </a>
     </section>
 
     <section class="test">
@@ -115,7 +118,7 @@
     </section>
 
     <!--SOCIAL MEDIA-->
-    <div class="social-media">
+    <div class="social-media" >
       <blockquote
         class="instagram-media"
         data-instgrm-captioned
@@ -148,6 +151,7 @@
               width: 100%;
             "
             target="_blank"
+            id="profile-link"
           >
             <div
               style="display: flex; flex-direction: row; align-items: center"
@@ -675,5 +679,6 @@
     <footer>
       <h2>&copy; Nestor Garcia</h2>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
