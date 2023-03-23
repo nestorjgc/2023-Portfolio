@@ -15,7 +15,7 @@ This application was made during 2022/2023 for my final project in a HTML/CSS cl
   - Instagram Integrated.
 
 ## Preview
-![Alt Text](https://github.com/nestorjgc/Cubito-Unity-Game/blob/main/Pictures/gif123.gif)
+![Nestor Foto](https://github.com/nestorjgc/project6_Portfolio/Portfolio.JPG)
 
 ## Nestor Garcia
 
