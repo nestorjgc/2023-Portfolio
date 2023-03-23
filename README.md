@@ -15,7 +15,7 @@ This application was made during 2022/2023 for my final project in a HTML/CSS cl
   - Instagram Integrated.
 
 ## Preview
-![Nestor Foto](/assets/Portfolio.JPG)
+![Nestor Foto](/Portfolio.JPG)
 
 ## Nestor Garcia
 
