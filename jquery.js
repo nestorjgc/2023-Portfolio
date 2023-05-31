@@ -14,4 +14,4 @@ function toggleName() {
   isGarcia = !isGarcia;
 }
 
-setInterval(toggleName, 4000);
+setInterval(toggleName, 2000);
