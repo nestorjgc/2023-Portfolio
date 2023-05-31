@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Portfolio using vanilla!
 
 ## Introduction
@@ -9,7 +7,7 @@ This application was made during 2022/2023 for my final project in a HTML/CSS cl
 - HTML
 - CSS
 
-## Live Demo: https://nestorjgc.github.io/project6_Portfolio/
+## [Live Demo ](https://nestorjgc.github.io/2023-Portfolio/)
 
 ## Features:
   - Bootstraps.
@@ -19,6 +17,4 @@ This application was made during 2022/2023 for my final project in a HTML/CSS cl
 ## Preview
 ![Nestor Foto](/Portfolio.JPG)
 
-
->>>>>>> 24e91cd46b49b882de873b2e9a9c90f39f3334ed
 
