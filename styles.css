@@ -160,7 +160,8 @@ h4.projects {
   color: #a17aff;
 }
 .cubito-gif {
-  width: 100%;
+  width: 80%;
+  height: 100%;
 }
 
 .description-item {
@@ -173,10 +174,6 @@ h4.projects {
 
 h5.description-item {
   font-size: 15px;
-}
-
-.cubito-gif {
-  width: 80%;
 }
 
 .flex {

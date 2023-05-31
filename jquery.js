@@ -4,12 +4,10 @@ const originalWidth = div.width();
 
 div.hover(
   function () {
-    $(this).stop().animate({ height: "450px", width: "800px" }, 400);
+    $(this).stop().animate({ height: "350px", width: "750px" }, 400);
   },
   function () {
-    $(this)
-      .stop()
-      .animate({ height: originalHeight, width: originalWidth }, 200);
+    $(this).stop().animate({ height: "100%", width: "80%" }, 200);
   }
 );
 
