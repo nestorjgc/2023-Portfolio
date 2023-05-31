@@ -9,7 +9,7 @@ div.hover(
   function () {
     $(this)
       .stop()
-      .animate({ height: originalHeight, width: originalWidth }, 800);
+      .animate({ height: originalHeight, width: originalWidth }, 200);
   }
 );
 
