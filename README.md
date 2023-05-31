@@ -2,9 +2,11 @@
 
 ## Introduction
 
-This application was made during 2022/2023 for my final project in a HTML/CSS class.
+This application was made during 2023 for my final project in a JavaScript class.
 ## Technologies Used
 - HTML
+- jQuery
+- JavaScript
 - CSS
 
 ## [Live Demo ](https://nestorjgc.github.io/2023-Portfolio/)
