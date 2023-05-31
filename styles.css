@@ -51,6 +51,12 @@ nav a:hover {
   transition: all 0.3s ease 0s;
 }
 
+a img:hover {
+  transition: all 0.3s ease 0s;
+
+  opacity: 0.8;
+}
+
 section {
   margin: 0 20%;
 }
@@ -141,7 +147,7 @@ h4.projects {
   /*   background-color: white;
  */
   margin: 0 auto;
-  width: 100vh;
+  width: 160vh;
   text-align: center;
 }
 
@@ -167,6 +173,10 @@ h4.projects {
 
 h5.description-item {
   font-size: 15px;
+}
+
+.cubito-gif {
+  width: 80%;
 }
 
 .flex {
@@ -234,6 +244,10 @@ footer {
   text-align: center;
 }
 
+.To-Do-Gif {
+  width: 80%;
+}
+
 @media only screen and (max-width: 700px) {
   header {
     padding: 2% 15px;
@@ -287,7 +301,7 @@ footer {
   }
 
   .To-Do-Gif {
-    width: 90%;
+    width: 100%;
   }
 
   .projects-section {

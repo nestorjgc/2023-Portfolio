@@ -1,0 +1,22 @@
+{
+  "name": "project6_portfolio",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r =======\r # Portfolio using vanilla!",
+  "main": "jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestorjgc/project6_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestorjgc/project6_Portfolio/issues"
+  },
+  "homepage": "https://github.com/nestorjgc/project6_Portfolio#readme",
+  "dependencies": {
+    "jquery": "^3.7.0"
+  }
+}

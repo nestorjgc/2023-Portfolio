@@ -9,6 +9,8 @@
     <link rel="icon" type="image/x-icon" href="https://nestorgarcia.000webhostapp.com/projects/project6_Portfolio/assets/favicon.png" />
   </head>
   <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <nav id="navbar" class="nav">
     <header>
       <a href="" class="nav-img">
@@ -17,7 +19,7 @@
       
         <ul>
           <li><a href="#welcome-section">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="projects.html">More Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -30,8 +32,8 @@
           id="nestor-avatar"
         />
         <h4 class="blue-text">Hi! my name is</h4>
-        <h1 class="name">Nestor Garcia</h1>
-        <h1 class="name">I make Website Applications!</h1>
+        <h1 class="name" id="test">Nestor Garcia</h1>
+        <h2 class="name" id="jquery-name">I make Website Applications!</h2>
 
         <div class="container-main" id="#welcome-section"></div>
         <p class="p-main">
@@ -50,16 +52,14 @@
       <h2 class="name projects project-tile">Things I've made!</h2>
     </section>
     <section class="test" id="projects">
-      <h4 class="name projects" id="cubito">Cubito!</h4>
-      <h5 class="description-item">C# | Unity</h5>
+      <h4 class="name projects" id="cubito">Card Animation!</h4>
+      <h5 class="description-item">JS | jQuery | CSS</h5>
       <p class="description-item project-tile">
-        It's a very simple program to play. The cube moves forward and the
-        player must avoid obstacles in order to win the game. The game is made
-        with 3 levels that the user can enjoy.
+        When clicking on an image, it will bring up the clicked image and hide the other ones.
       </p>
-         <a href="https://github.com/nestorjgc" class="nav-img" id="profile-link" target="_blank">
+         <a href="https://jsevents-cards.nestorjgc.repl.co/" class="nav-img" id="profile-link" target="_blank">
         <img
-          src="https://raw.githubusercontent.com/nestorjgc/Cubito-Unity-Game/main/Pictures/gif123.gif"
+          src="./assets/cardAnimation.JPG"
           alt="Cubito Gif"
           class="cubito-gif"
         />
@@ -68,23 +68,41 @@
 
     <section class="test">
       <h4 class="name projects" id="cubito">To-Do List!</h4>
-      <h5 class="description-item">JavaScript | HTML5 | CSS</h5>
+      <h5 class="description-item">JavaScript | jQuery | CSS</h5>
       <p class="description-item">
         Program that reminds the users things to do. This program is basically a
         reminder application. Users can interact with the application and
         modify/add/delete items.
       </p>
+    <a href="https://hw4-top-qualities-programmer.nestorjgc.repl.co/" class="nav-img" id="profile-link" target="_blank">
       <img
-        src="https://raw.githubusercontent.com/nestorjgc/To-Do-List/main/imgs/gif123.gif"
+        src="assets/todo.JPG"
         alt="Cubito Gif"
         class="To-Do-Gif"
       />
+    </a>
+    </section>
+
+
+    <section class="test">
+      <h4 class="name projects" id="cubito">Battle Generator!</h4>
+      <h5 class="description-item">JavaScript | jQuery | CSS</h5>
+      <p class="description-item">
+        Program that will randomly select 2 characters with an object that has races, classes, abilities and photos. The main function of this program is to generate a fight, and based on health and abilities, only 1 player will win.
+      </p>
+    <a href="https://randomwowbattlegenerator.nestorjgc.repl.co/" class="nav-img" id="profile-link" target="_blank">
+      <img
+        src="assets/randomWowPic.JPG"
+        alt="Cubito Gif"
+        class="To-Do-Gif"
+      />
+    </a>
     </section>
     <!--About Me-->
     <section class="projects-section" id="about-me">
       <h2 class="name projects about">A FEW WORDS ABOUT ME</h2>
       <h3 class="name" id="few-words">
-        I’m Nestor Garcia , a multidisciplinary Software Engineer who focuses in
+        I’m Nestor Garcia , a multidisciplinary Web Developer who focuses in
         both, front-end and back-end applications. I specialize in responsive
         websites and functional user interfaces.
       </h3>
@@ -689,6 +707,6 @@
     <footer>
       <h2>&copy; Nestor Garcia</h2>
     </footer>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="jquery.js"></script>
   </body>
 </html>
